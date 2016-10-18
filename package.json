@@ -1,0 +1,38 @@
+{
+  "name": "rio",
+  "version": "1.0.0",
+  "description": "书架",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beautifulreading/rio-MINA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beautifulreading/rio-MINA/issues"
+  },
+  "homepage": "https://github.com/beautifulreading/rio-MINA#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-base64": "^0.1.3",
+    "gulp-changed": "^1.3.2",
+    "gulp-css-rework-url": "^0.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10",
+    "gulp-watch-path": "^0.1.0",
+    "gutil": "^1.6.4",
+    "leancloud-realtime": "^3.2.3",
+    "stream-combiner2": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

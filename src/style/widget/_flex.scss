@@ -1,0 +1,13 @@
+
+
+.flex-row {
+  display: flex;
+  @at-root {
+    #{&}-item {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

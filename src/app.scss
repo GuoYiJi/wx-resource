@@ -1,0 +1,21 @@
+/* Common.css */
+@import 'style/widget/border',
+        'style/widget/utils';
+view, text {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.container {
+  min-height: 100%;
+  background-color: rgb(245, 249, 251);
+  font-family: "PingFangSC-Regular";
+}
+
+.scroll-page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+image {
+  background-color: #eee;
+}
